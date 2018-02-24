@@ -12,3 +12,12 @@ layout: default
 {% if page.tags %}
   <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
 {% endif %}
+<div style="border-top: solid 1px #e5e5e5; margin-top: 0.5em; padding-top: 0.3em">
+  {% if page.previous.url %}
+    <small><a href="{{ page.previous.url }}" style="float: left;">&lt;&lt;&nbsp;{{ page.previous.title }}</a></small>
+  {% endif %}
+
+  {% if page.next.url %}
+    <small><a href="{{ page.next.url }}" style="float: right;">&gt;&gt;&nbsp;{{ page.next.title }}</a></small>
+  {% endif %}
+</div>

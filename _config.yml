@@ -7,5 +7,9 @@ markdown: kramdown
 plugins:
   - jekyll-toc
   - jekyll-seo-tag
+  - jekyll-readme-index
+  - jekyll-default-layout
+  - jekyll-optional-front-matter
+  - jekyll-relative-links
 toc:
   max_level: 3
