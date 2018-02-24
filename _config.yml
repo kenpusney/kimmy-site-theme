@@ -1,0 +1,11 @@
+title: Kimmy's personal site
+email: kenpusney#at#gmail.com
+author: Kimmy Leo
+# Build settings
+markdown: kramdown
+
+plugins:
+  - jekyll-toc
+  - jekyll-seo-tag
+toc:
+  max_level: 3
